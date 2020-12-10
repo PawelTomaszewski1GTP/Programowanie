@@ -49,7 +49,7 @@ void files::loop()
 
                fileIn>>dane; 
 
-                if(dane>1000)
+                if(dane<1000)
 
                 {
 
