@@ -10,7 +10,8 @@ using namespace std;
 int main()
 {
 int ilosc = 0
-    double number, sum=0, max = INT_MIN, min = INT_MAX;
+    
+    double liczba, sum=0, max = INT_MIN, min = INT_MAX;
 
     ifstream read;
     ofstream write;
@@ -22,15 +23,15 @@ int ilosc = 0
         exit(1);
     }
 
-    while (read>>number)
+    while (read>>liczba)
     {
-        if (number>max)
-             max=number;
+        if (liczba>max)
+             max=liczba;
 
-        if (number<min)
-             min=number;
+        if (liczba<min)
+             min=liczba;
 
-                sum=sum+number;
+                sum=sum+liczba;
 
     }
 
