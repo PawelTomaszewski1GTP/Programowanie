@@ -28,7 +28,7 @@ int main(int argc, char** argv) {
 
          	a=b;
 
-         	cout<<"a jest wieksze od b ";
+         	cout<<"a wieksze niz b ";
 
 		 }
      }
